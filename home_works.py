@@ -13,13 +13,13 @@ print(res)
 
 # 4
 word = ["алма", "банан", "чие"]
-capitalized_word = [i.capitalize() for i in word]
-print(capitalized_word)
+upper_word = [i.upper() for i in word]
+print(upper_word)
 
 # 5
 number = float(input("Санды киргизиңиз: "))
-result = "оң" if number > 0 else "терс" if number < 0 else "нөл"
-print(result)
+res = "оң" if number > 0 else "терс" if number < 0 else "нөл"
+print(res)
 
 # 6
 number = int(input("Санды киргизиңиз: "))
